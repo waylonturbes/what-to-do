@@ -1,10 +1,12 @@
-import { Container, Heading } from "@chakra-ui/react";
+import { Center, Container, Heading } from "@chakra-ui/react";
 import "./index.css";
 
 function App() {
   return (
     <Container>
-      <Heading>Hey hey hey!</Heading>
+      <Center minHeight="100vh">
+        <Heading as="h1">WHAT TO DO</Heading>
+      </Center>
     </Container>
   );
 }
