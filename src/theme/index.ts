@@ -9,5 +9,5 @@ const overrides = {
 
 export default extendTheme(
   overrides,
-  withDefaultColorScheme({ colorScheme: "twitter" })
+  withDefaultColorScheme({ colorScheme: "cyan" })
 );
